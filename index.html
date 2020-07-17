@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/lux/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -13,26 +14,33 @@
 
 <body>
 
-<header>
-  <h1>Chef Gregory</h1>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Recipes</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-  <div class="social-icons">
-    <i class="fab fa-instagram-square"></i>
-    <i class="fab fa-youtube-square"></i>
-    <i class="fab fa-facebook-square"></i>
-  </div>
+<header class="header-nav navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+	<h1 class="navbar-brand">Chef Gregory</h1>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+	<div class="navbar-content collapse navbar-collapse" id="navbarColor03">
+		<ul class="nav-menu navbar-nav mr-auto">
+			<li class="nav-item active"><a href="#"
+					class="list-menu nav-link">Home<span class="sr-only">(current)</span></a></li>
+			<li class="nav-item"><a href="#" class="list-menu nav-link">About</a></li>
+			<li class="nav-item"><a href="#" class="list-menu nav-link">Recipes</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+		</ul>
+		<div class="social-icons d-none d-lg-block justify-content-end">
+			<i class="fab fa-instagram-square"></i>
+			<i class="fab fa-youtube-square"></i>
+			<i class="fab fa-facebook-square"></i>
+		</div>
+	</div>
+
 </header>
 
 <main>
-  <div class="hero" role="banner">
-    <img class="hero-image" src="https://via.placeholder.com/1500x500.jpg">
+  <div class="hero container-fluid" role="banner">
+    <img class="hero-image img-fluid max-width: 100 height: auto" src="https://via.placeholder.com/1500x700.jpg" alt="Chef Gregory cooking">
   </div>
 
 <section>

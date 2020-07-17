@@ -1,7 +1,44 @@
-.banner-image{
+.header-nav{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+}
+
+.hero {
+    margin-top: 30px;
+    padding-top: 30px;
+    height: 50vw;
+    width: 100%;
+}
+
+
+/*.hero-image{
   background: url(images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
+  overflow: hidden;
+}*/
+
+
+h1.navbar-brand{
+    float: left;
+    padding: 10px 10px 10px 30px;
+}
+
+.navbar-content {
+    float: right;
+}
+
+/*.list-menu {
+    border-right: 1px solid black;
+    text-align: center;
+}*/
+
+.social-icons {
+    font-size: 20px;
+    padding: 10px 30px 10px 10px;
 }
