@@ -53,3 +53,13 @@ h1.navbar-brand{
 .recipes-home {
     padding-top: 30px;
 }
+
+footer {
+    position: relative;
+}
+
+.container-small{
+    position: absolute;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
