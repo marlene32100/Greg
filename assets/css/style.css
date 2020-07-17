@@ -51,15 +51,12 @@ h1.navbar-brand{
 }
 
 .recipes-home {
+    margin-top: 30px;
     padding-top: 30px;
+    margin-bottom: 30px;
 }
 
 footer {
     position: relative;
 }
 
-.container-small{
-    position: absolute;
-    margin-right: 0px;
-    margin-bottom: 0px;
-}
