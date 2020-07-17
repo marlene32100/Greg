@@ -60,3 +60,23 @@ footer {
     position: relative;
 }
 
+
+
+/*media queries*/
+@media only screen and (max-width: 768px) {
+   .about-home {
+       margin-top: 60px;
+   }
+   h1.navbar-brand{
+       margin-right: 20vw;
+   }
+   
+   .hero {
+       height: 70vh;
+       margin-top: 15px;
+   }
+   
+   .hero img{
+       height: 70vh;
+   }
+}
