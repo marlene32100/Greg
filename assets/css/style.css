@@ -58,6 +58,10 @@ h1.navbar-brand{
     margin-bottom: 30px;
 }
 
+.about-page {
+    margin-top: 100px;
+}
+
 footer {
     position: relative;
     background-color: black;
