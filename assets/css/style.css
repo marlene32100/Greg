@@ -71,6 +71,10 @@ p.subhead::first-letter {
     margin-top: 30px;
 }
 
+.carousel-box {
+    margin-top: 60px;
+}
+
 footer {
     position: relative;
     background-color: black;
