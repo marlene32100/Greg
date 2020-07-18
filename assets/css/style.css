@@ -58,8 +58,17 @@ h1.navbar-brand{
     margin-bottom: 30px;
 }
 
+/* Check those two classes because they are not working */
 .about-page {
     margin-top: 100px;
+}
+
+p.subhead::first-letter {
+    initial-letter: 2;
+}
+
+.second-row {
+    margin-top: 30px;
 }
 
 footer {
