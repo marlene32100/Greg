@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
 .header-nav{
     display: inline-block;
     margin: 0;
@@ -59,8 +65,12 @@ h1.navbar-brand{
 }
 
 /* Check those two classes because they are not working */
-.about-page {
+.container-main { 
     margin-top: 100px;
+}
+
+section.container {
+    margin-top: 60px;
 }
 
 p.subhead::first-letter {
@@ -75,6 +85,14 @@ p.subhead::first-letter {
     margin-top: 60px;
 }
 
+.contact-page {
+    margin-top: 100px;
+}
+
+.content-page{
+    margin-top: 30px;
+}
+
 footer {
     position: relative;
     background-color: black;
@@ -84,6 +102,10 @@ section.contact {
     padding-top: 30px;
 }
 
+
+.recipe-container{
+    padding-top: 30px;
+}
 
 
 /*media queries*/
