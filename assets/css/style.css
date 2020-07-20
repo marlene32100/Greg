@@ -107,6 +107,25 @@ section.contact {
     padding-top: 30px;
 }
 
+.ingredients-list{
+    padding: auto;
+    list-style-type: none;
+    line-height: 1.6;
+
+}
+
+.first-row {
+    margin-top: 30px;
+}
+
+.second-row {
+    margin-top: 30px;
+}
+
+.third-row {
+    margin-top: 30px;
+}
+
 
 /*media queries*/
 @media only screen and (max-width: 768px) {
