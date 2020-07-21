@@ -64,7 +64,7 @@ h1.navbar-brand{
     margin-bottom: 30px;
 }
 
-/* Check those two classes because they are not working */
+/* Check those three classes because they are not working */
 .container-main { 
     margin-top: 100px;
 }
@@ -102,16 +102,26 @@ section.contact {
     padding-top: 30px;
 }
 
-
+/*-----------------------------------------------------------------------Recipes page*/
 .recipe-container{
-    padding-top: 30px;
+    margin-top: 50px;
+    padding-top: 0px 10px 0px 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
 .ingredients-list{
     padding: auto;
     list-style-type: none;
-    line-height: 1.6;
+    line-height: 2;
 
+}
+
+.list-header {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .first-row {
@@ -125,6 +135,8 @@ section.contact {
 .third-row {
     margin-top: 30px;
 }
+
+
 
 
 /*media queries*/
