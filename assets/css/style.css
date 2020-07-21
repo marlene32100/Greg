@@ -103,15 +103,24 @@ section.contact {
 }
 
 /*-----------------------------------------------------------------------Recipes page*/
+.description {
+    margin-top: 30px;
+}
+
 .recipe-container{
     margin-top: 50px;
     padding-top: 0px 10px 0px 10px;
-    border: 1px solid gray;
+    border: 1px solid #d3d3d3;
     border-radius: 5px;
 }
 
-.ingredients-list{
-    padding: auto;
+.col-ingredients {
+    margin: auto;
+}
+
+ul.ingredients-list{
+    text-align: center;
+    margin: 10px auto;
     list-style-type: none;
     line-height: 2;
 
@@ -121,7 +130,7 @@ section.contact {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 .first-row {
@@ -137,9 +146,27 @@ section.contact {
 }
 
 
+/*-------------------------------------------------------Contact page*/
 
+.container-contact-image{
+  position: relative;
+  max-width: 900px; 
+  margin: 0 auto; 
+  padding: 0;
+}
 
-/*media queries*/
+.container-contact-image .contact-details {
+  position: absolute; 
+  top: 40%;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%; 
+  padding: 30px; 
+  
+}
+
+/*--------------------------------------------------------media queries*/
 @media only screen and (max-width: 768px) {
    .about-home {
        margin-top: 60px;
@@ -157,3 +184,4 @@ section.contact {
        height: 70vh;
    }
 }
+
