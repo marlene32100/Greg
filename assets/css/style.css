@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    letter-spacing: 2px;
 }
 
 
@@ -105,6 +106,9 @@ section.contact {
 /*-----------------------------------------------------------------------Recipes page*/
 .description {
     margin-top: 30px;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 30px;
 }
 
 .recipe-container{
@@ -123,8 +127,15 @@ ul.ingredients-list{
     margin: 10px auto;
     list-style-type: none;
     line-height: 2;
+    width: 100%;
+    padding: 0;
 
 }
+
+.description-recipe {
+    text-align: justify;
+}
+
 
 .list-header {
     text-transform: uppercase;
@@ -183,5 +194,7 @@ ul.ingredients-list{
    .hero img{
        height: 70vh;
    }
+
+
 }
 
