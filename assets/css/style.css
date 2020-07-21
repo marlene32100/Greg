@@ -177,6 +177,15 @@ ul.ingredients-list{
   
 }
 
+.contact-details h3 {
+    color: lightgray;
+    letter-spacing: 5px;
+}
+
+.contact-details address {
+    color: lightgray;
+}
+
 /*--------------------------------------------------------media queries*/
 @media only screen and (max-width: 768px) {
    .about-home {
@@ -193,6 +202,10 @@ ul.ingredients-list{
    
    .hero img{
        height: 70vh;
+   }
+    /* not working*/
+   .toggler-icon {
+       padding-right: 10px;
    }
 
 
