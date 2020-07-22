@@ -4,6 +4,10 @@ body {
     letter-spacing: 2px;
 }
 
+html body{
+    height: 100%;
+}
+
 
 .header-nav{
     display: inline-block;
@@ -196,6 +200,13 @@ ul.ingredients-list{
 }
 
 /*--------------------------------------------------------media queries*/
+
+@media only screen and (max-width: 1200px) {
+    .card-body {
+        height: 98.8px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
    .about-home {
        margin-top: 60px;
@@ -213,8 +224,8 @@ ul.ingredients-list{
        height: 70vh;
    }
     /* not working*/
-   .toggler-icon {
-       padding-right: 10px;
+   button.navabr-toggler {
+       margin-right: 10px;
    }
 
 
