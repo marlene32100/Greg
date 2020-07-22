@@ -20,6 +20,11 @@ body {
     position: relative;
 }
 
+.image-home-mobile{
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 
 /*.hero-image{
@@ -76,6 +81,10 @@ section.container {
 
 p.subhead::first-letter {
     initial-letter: 2;
+}
+
+.image-about {
+    width: 300px;;
 }
 
 .second-row {
